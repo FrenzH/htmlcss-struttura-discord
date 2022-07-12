@@ -16,6 +16,21 @@ body{
 .flex{
     display: flex;
 }
+.container{   
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  .grow {
+    flex-grow: 1;
+  }
+  .wrap {
+    flex-wrap: wrap;
+  }
+  .space-between{
+ 
+    justify-content: space-between;
+  
+  }  
 
 
 
@@ -60,6 +75,7 @@ header{
     
 }
 /*/header*/
+/*main*/
 .spacearound{
     justify-content: space-around;
 }
@@ -84,3 +100,30 @@ header{
     align-items: center;
     text-align: center;
 }
+/*/main*/
+
+
+
+
+/*footer*/
+footer{
+    background-color: #23272a;
+    color: #fff;
+    padding-top: 75px;
+  }
+  
+#social-link{
+    flex-basis: 350px;
+    flex-shrink: 0;
+    }
+    
+    footer .column {
+      flex-basis: calc(25% - 20px);
+      padding: 0 10px;
+    }
+    
+    footer hr {
+      margin: 25px 0px
+    }
+    
+
