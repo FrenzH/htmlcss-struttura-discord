@@ -23,6 +23,7 @@ body{
 
 
 /*content*/
+/*header*/
 ul{
    justify-content: space-between;
    list-style: none;
@@ -57,4 +58,29 @@ header{
     padding: 75px 0px;
   
     
+}
+/*/header*/
+.spacearound{
+    justify-content: space-around;
+}
+.image-chatgroup{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: orange;
+}
+#chat-groups .container > *{
+    flex-basis: 50%;
+    padding: 0px 5px;
+    flex-shrink: 0;
+}
+#chat-groups{
+    padding: 75px 0px;
+}
+.column{
+    flex-direction: column;
+}
+#video-tecnology{
+    align-items: center;
+    text-align: center;
 }
